@@ -1,5 +1,5 @@
 {
-  "name": "kokiddp/sage-installer",
+  "name": "fabiao/sage-installer",
   "description": "Sage starter theme installer",
   "keywords": [
     "sage",
@@ -34,14 +34,14 @@
     }
   },
   "require": {
-    "php": "^7.4 | ^8.0",
-    "illuminate/console": "~8.81",
-    "illuminate/filesystem": "~8.81",
-    "symfony/process": "^5.4",
-    "ramsey/uuid": "^3.8"
+    "php": "^8.0",
+    "illuminate/console": "^13",
+    "illuminate/filesystem": "^13",
+    "symfony/process": "^8",
+    "ramsey/uuid": "^4"
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "~3.5"
+    "squizlabs/php_codesniffer": "^3"
   },
   "scripts": {
     "test": [
